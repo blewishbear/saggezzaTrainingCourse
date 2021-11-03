@@ -62,7 +62,7 @@ public class FizzBuzzTest {
         IFizzBuzz fb = new FizzBuzz();
         // Given: I am a user
         // When: I enter an integer 6
-        String result = fb.generate(6);
+        String result = fb.generate(5);
         // Then: I get back a string ending with "Buzz"
         assertTrue(result.endsWith("Fizz"));
     }
